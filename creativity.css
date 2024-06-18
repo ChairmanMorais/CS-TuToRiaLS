@@ -1,0 +1,92 @@
+body {
+    background-image: url('C:\\Users\\techverse\\Desktop\\WebDev\\Practice\\back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 95, 115, 0.8); /* Slightly transparent to see background image */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e9d8a6;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent to see background image */
+    padding: 2em;
+    margin: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+form {
+    margin-top: 1em;
+}
+
+label {
+    /*background-color:white;*/
+    color:#005f73;
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    background-color:white;
+    color:#005f73;
+    width: 60%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #0a9396;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+footer {
+    background-color: rgba(148, 210, 189, 0.8); /* Slightly transparent to see background image */
+    color: #005f73;
+    text-align: center;
+    padding: 1em 0;
+}
